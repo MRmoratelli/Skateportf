@@ -1,0 +1,472 @@
+ 
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skaters - Matheus Moratelli</title>
+    <link rel="stylesheet" href="./assets/libs/animate/animate.min.css">
+    <link rel="stylesheet" href="./assets/libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    
+  </head>
+  
+  <body>
+    
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Historia do Skateboard</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+        
+          <div class="modalll">
+          <img width="100%" src="./assets/img/modalimg.png" alt="logo">
+          </div>
+          <div class="histskt">
+            <h6>O SURGIMENTO</h6>
+             <p>Para um melhor entendimento a tradução de Skateboard é patins numa prancha, porém no Brasil ficou conhecido como Skate.
+              Não sabe ao certo como e quando o Skate surgiu, mas foi nos Estados Unidos num processo ao longo da primeira metade do século 20, talvez derivando dos rollers scooters, especie de patinete fabricados a partir de 1900.
+              Recentemente descobriram que em 1918 um então garoto norte americano chamado de Doc "Heath" Ball já havia desmontado eixos e rodas de patins e fixado numa madeira, porém ele não andava de pé e sim com um joelho apoiado na madeira e outro pé dando impulso.
+              No final dos anos 50 quando não havia ondas no litoral da Califórnia, surfistas tentavam imitar as manobras de Surf usando rodas e eixos montandas em pranchas de madeira.
+              O primeiro skate fabricado e comercializado em série foi o Roller Derby em 1959.
+              Nesta época milhões de skates foram vendidos, mas as rodas eram de ferro e por escorregarem aconteceram muitos acidentes e a sociedade norte americana fez campanha para banir o novo esporte, demorando muito tempo para o skate ganhar credibilidade novamente.</p>
+            <h6>ANOS 60</h6>
+            <p>No início era chamado sidewalk surfing, ou seja, surf de calçada, e rapidamente se espalhou por todo os Estados Unidos.
+              A moda pegou e no início da década de 60 aconteceu o primeiro estouro do Skate como novo esporte, o primeiro skate a ser comercializado foi o Roller Derby.
+              Em 1963 o sidewalk surfing, já praticado por um grande número de adolescentes, tinha criado identidade, com suas próprias manobras e assim ganhou seu nome definitivo: Skateboard.
+              O primeiro campeonato de Skate aconteceu em Hermosa Beach, Califórnia, em 1963, vencido por Larry Stevenson.
+              A primeira revista especializada em Skate no mundo foi a The Quarterly Skateboarder lançada em 1964 nos Estados Unidos.
+              O Skate na década de 60 era completamente ligado ao Surf e influenciado por ele.
+              Uma extensão da praia no asfalto, foi neste momento que nasceu o skate vertical, um projeto diferente de piscina com transição, durante a grande seca na Califórnia as piscinas foram esvaziadas e os surfistas/skatistas descobriram que dava para se divertir andando de skate nas paredes, que lembravam as transições das ondas de surf. </p>
+            </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel2">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+          
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca vamos compartinhar seu email.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+                 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel3">Fale Conosco</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body ">
+          
+        <div class="row g-3">
+          <div class="col">
+            <label class="form-label">Informações pessoais</label>
+            <input type="text" class="form-control" placeholder="Nome" aria-label="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="sobrenome" aria-label="Last name">
+          </div>
+        </div>
+          <div class="col-sm-10">
+            <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Feedback</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Fale mais sobre sua experiencia!!">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Sugestões</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Quem gostaria de ver por aqui?">
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput3" class="form-label">Top cinco Skaters</label>
+            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Nos conte seu top cinco">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <header class="container-fluid my-fluid">
+      
+            <div class="box-wrap" id="topo">
+                <div class="container-lg box">
+                <div class="logo"> 
+                    <img height="100" src="./assets/img/skatelogo.webp" alt="logo">
+                </div>
+                <div class="logo-right">
+                    <div class="social-icons">
+
+                        <div><a href="https://pt-br.facebook.com/?adlt=strict&toWww=1&redig=6ED7F008A1864B85B6B9EF86DC82481F" target="_blank" >
+                          <i class="fa-brands fa-facebook"></i></a></div>
+
+                          <div><a href="https://www.instagram.com/?hl=en&adlt=strict&toWww=1&redig=863215D6C7CD467584AAAA3DF3313248" target="_blank" >
+                            <i class="fa-brands fa-instagram"></i></a></div>
+
+                            <div><a href="https://www.youtube.com/watch?v=gEcFyQ1068E" target="_blank" >
+                              <i class="fa-brands fa-youtube"></i></a></div>
+
+                              <div><a href="" target="_blank" >
+                                <i class="fa-brands fa-whatsapp"></i></a></div>
+                      </div>
+                        <nav>
+                         
+                            <ul class="nav nav-pills">
+                              <li class="nav-item">
+                                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal2" href="#">Login</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fale conosco</a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="#">Sugestão de Skaters</a></li>
+                                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="#">Deixar feedback</a></li>
+                                  <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="#">Seu top cinco</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=PONKQcZvM-Q">Thrasher Mag</a></li>
+                                </ul>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link disabled">Skateboard</a>
+                              </li>
+                              </ul>
+                        </nav>
+                </div>
+            </div>
+           </div>
+           <div class="box1-wrap">
+           <div class="container-lg box1">
+  <ul>
+    <li><a  href="">Skaters</a></li>
+    <li><div class="ano"><a href="">1960"</a></div></li>
+    <li><div class="ano"><a href="">1970"</a></div></li>
+    <li><div class="ano"><a href="">1980"</a></div></li>
+    <li><div class="ano"><a href="">1990"</a></div></li>
+  </ul>
+           </div>
+           </div>
+    </header>
+    <div class="banner container-fluid animate__animated animate__fadeInUp">
+<div class="container-lg carrosel-wrap">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img" src="./assets/img/bob_band_mega_rampa.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Bob Burnquist</h5>
+          <p>Mega rampa dreamland, Vista, CA.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img" src="./assets/img/steve-caballero.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block">
+          <h5>Steve Caballero</h5>
+          <p>Some Skatepark at CA, USA.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img" src="./assets/img/tony-hawk.webp"class="d-block w-100" alt="...">
+        <div class="carousel-caption  d-md-block tony">
+          <h5>Tony Hawk</h5>
+          <p>Some Skatepark.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+    </div>
+    <main>
+      <div class="container-lg skt">
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+          <div class="col">
+            <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="./assets/imgcard/Bob_Burnquist_card.jpg" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <p class="card-text"><strong>Bob Burnquist</strong> , 10 de outubro de 1976, RJ, Brasil</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="./assets/imgcard/tony-halk-card.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <p class="card-text"><strong>Tony Halk</strong> , 12 de maio de 1968, CA, EUA. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="./assets/imgcard/rodney-mullen-card.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <p class="card-text"><strong>Rodney Mullen</strong> ,17 de agosto de 1966, FL, EUA.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <img src="./assets/imgcard/steve-cab-card.webp" class="card-img-top img-card" alt="...">
+              <div class="card-body">
+                <p class="card-text"><strong>Steve Caballero</strong> ,8 de novembro de 1964, CA, EUA.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+        <div class="container-lg skt">
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+              <div class="col">
+                <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="./assets/imgcard/christian-hosoi-card.webp" class="card-img-top img-card" alt="...">
+                  <div class="card-body">
+                    <p class="card-text"><strong>Christian Hosoi</strong> ,5 de outubro de 1967, CA, EUA.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="./assets/imgcard/danny-way-card.webp" class="card-img-top img-card" alt="...">
+                  <div class="card-body">
+                    <p class="card-text"><strong>Danny Way</strong> ,15 de abril de 1974, OR, EUA.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="./assets/imgcard/Mike-Vallely-card.webp" class="card-img-top img-card" alt="...">
+                  <div class="card-body">
+                    <p class="card-text"><strong>Mike Vallely</strong> ,29 de junho de 1970, NJ, EUA.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <img src="./assets/imgcard/sandro-dias-card.webp" class="card-img-top img-card" alt="...">
+                  <div class="card-body">
+                    <p class="card-text"><strong>Sandro Dias</strong> ,18 de abril de 1975, SP, Brasil.</p>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      </div>
+      <div class="container-lg skt">
+        <div class="container text-center">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            <div class="col">
+              <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="./assets/imgcard/Andrew-Reynolds-card.jpg" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>Andrew Reynolds</strong> ,13 de junho de 1964, FL, EUA.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="./assets/imgcard/lance-mountain-card.webp" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>Lance Mountain</strong> ,6 de junho de 1978, CA, EUA.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="./assets/imgcard/pedro-barros-card.webp" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>Pedro Barros</strong> ,16 de março de 1995, SC, Brasil.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img src="./assets/imgcard/nyjah-houston-card.webp" class="card-img-top img-card" alt="...">
+                <div class="card-body">
+                  <p class="card-text"><strong>Nyjah Huston</strong> ,30 de novembro de 1994, CA, EUA.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+          <div class="container-lg skt">
+            <div class="container text-center">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                <div class="col">
+                  <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./assets/imgcard/Shane-ONeill-card.jpg" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Shane O'Neill</strong> ,3 de janeiro de 1990, MEL, Austrália.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./assets/imgcard/bucky-lasek-card.webp" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Bucky Lasek</strong> ,3 de dezembro de 1972, MD, Austrália.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./assets/imgcard/luan-oliveira-card.webp" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Luan de Oliveira</strong> ,22 de setembro de 1990, RS, Brasil.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card my-card" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <img src="./assets/imgcard/mark-gonzales-card.webp" class="card-img-top img-card" alt="...">
+                    <div class="card-body">
+                      <p class="card-text"><strong>Mark Gonzales</strong> ,1 de junho de 1968, CA, EUA.</p>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+        </div>
+    </main>
+    <footer class="container-fluid my-fluid">
+        <div class="box-wrap22">
+          <div class="container-lg box22">
+          
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-6 col-md-4 card-info1">
+                  <div class="card card22">
+                    <div class="card-body">
+                      <h5 class="card-title">Segurança</h5>
+                      <p class="card-text">Equipamentos de proteção são fundamentais na pratica do skateboard pricipalmente pelos iniciantes.</p>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4 card-info2">
+                  <div class="card card22">
+                    <div class="card-body">
+                      <h4 class="card-title">Skate Life</h4>
+                      <p class="card-text">Pegue seu skate vai pra rua e seja feliz. Skateboard é liberdade, igualdade e respeito.</p>
+                
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-6 col-md-4 card-info3 total">
+                  <div class="card card22" >
+                    <div class="card-body">
+                      <h4 class="card-title">Brasil</h4>
+                     
+                      <p class="card-text">Nos ultimos anos o brasil vem aumentando sua relenancia no cenario do skate mondial. Em todas as modalidades. </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+            <div class="ultimo">
+              <div class="row">
+                <div class="col-6 ">
+                  <div class="skate">
+
+                    <p class="noome">Skateboard</p>
+
+                  </div>
+                </div>
+                <div class="col-6">
+                  <nav>    
+                  <ul class="nav nav-pills">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Fale conosco</a>
+                      <ul class="dropdown-menu">
+                        
+                        <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#exampleModal3" href="#">Deixar feedback</a></li>
+                       
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="https://www.youtube.com/watch?v=PONKQcZvM-Q">Thrasher Mag</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="btn btn-outline-light" href="#topo" role="button">Voltar ao topo</a>
+                    </li>
+                    </ul>
+              </nav>
+            </div>
+              </div>
+            </div>
+            </div>
+          
+          
+          </div>
+        </div>
+
+    </footer>
+    <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+/* @import url(font google) */
+
+  @import "modal.css";
+  @import "footer.css";
+  @import "header.css";
+  @import "medias.css";
+  @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #cfcfcf;
+  }
+   
+.banner{
+    float: left;
+}
+.carousel-inner{
+    border-radius: 2%;
+  }
+  
+.carrosel-wrap{
+   
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.img{
+height: 600px;
+width: 100%;
+border-radius: 2%;
+ } 
+ 
+main{
+    float: left;
+    padding: 30px 0;
+    height: fit-content;
+    min-width: 100%;
+}
+.main{
+   padding: 0 20px 30px 20px;
+   background: white; 
+
+}
+.img-card{
+    
+    height: 350px ;
+}
+.my-card{
+    min-height: 100%;
+    border: 2px solid transparent;
+}
+.my-card:hover{
+    border-color: black;
+}
+.col{
+    margin-bottom: 15px;
+}
+
